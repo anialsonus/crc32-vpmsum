@@ -11,7 +11,7 @@ SHELL=/bin/bash
 
 # CRC32
 CRC=0x11EDC6F41
-OPTIONS=-r -x
+OPTIONS=-r -x -c
 
 try-run = $(shell set -e;		\
 	TMP="$(TMPOUT).$$$$.tmp";	\
